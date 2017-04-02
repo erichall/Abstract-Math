@@ -1,0 +1,16 @@
+{
+  "name": "abstract_math",
+  "version": "1.0.0",
+  "description": "Bengan",
+  "main": "coefficientmul.js",
+  "dependencies": {
+    "chai": "^3.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "numbers": "node numbers.js",
+    "c-tests" : "./node_modules/mocha/bin/mocha coefficientmul.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
