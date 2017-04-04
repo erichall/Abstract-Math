@@ -12,7 +12,8 @@
     "c-tests" : "./node_modules/mocha/bin/mocha coefficientmul.js",
     "primitive-elem" : "node primitive-element.js",
     "generator" : "node generators.js",
-    "gcd" : "node gcd.js"
+    "gcd" : "node gcd.js",
+    "irreducable" : "node find-irreduciable.js"
   },
   "author": "",
   "license": "ISC"
