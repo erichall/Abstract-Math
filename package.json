@@ -13,7 +13,8 @@
     "primitive-elem" : "node primitive-element.js",
     "generator" : "node generators.js",
     "gcd" : "node gcd.js",
-    "irreducable" : "node find-irreduciable.js"
+    "irreducable" : "node find-irreduciable.js",
+    "code-dist" : "node min-distance.js"
   },
   "author": "",
   "license": "ISC"
