@@ -10,11 +10,11 @@ for(i = 0; i < codes.length; i++) {
   for(j = i+1; j < codes.length; j++) {
     var diff = Array.from((codes[i]^codes[j]).toString(2)).reduce(function(acc,val){
       (val > 0 ? acc += 1 : acc); return acc },0)
-    diff < min ? min = diff : true
+    diff < min ? (min = diff) : true
   }
 }
 
-console.log(min)
+console.log(`Min dist: ${min}`)
 
 function parseInteger(v) {
   return parseInt(v,2)
